@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-color);
+    color:var(--text-color);
+    transition: 0.3s;
+}
+
+:root{
+    --bg-color: white;
+    --text-color: rgb(2, 3, 17);
+}
+
+.darkMode{
+
+    --bg-color: rgb(2, 6, 14);
+    --text-color: white;
+    transition: 0.3s;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading h2{
+
+    font-size: 80px;
+}
+
+.heading button{
+
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    margin-left: 20px;
+    border-radius: 6px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.heading button span{
+
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.heading button .sun{
+    background: rgb(248, 204, 10);
+    transition: 0.3s;
+}
+
+
+.heading button .moon{
+    background: rgb(4, 22, 56);
+    color: white;
+}
+
